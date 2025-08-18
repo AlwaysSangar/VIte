@@ -1,14 +1,16 @@
 .navbar {
-    background: #ffdde1;
-    padding: 10px 20px;
+    background: linear-gradient(90deg, #ffdde1, #ee9ca7);
+    padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   }
   
   .logo {
     font-weight: bold;
-    color: #ff6f91;
+    color: #ff2e63;
+    font-size: 20px;
   }
   
   .navbar ul {
@@ -23,8 +25,9 @@
     text-decoration: none;
     color: #333;
     font-weight: 500;
+    transition: 0.3s;
   }
   
   .navbar ul li a:hover {
-    color: #ff6f91;
+    color: #ff2e63;
   }

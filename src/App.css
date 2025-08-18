@@ -1,108 +1,21 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background: #f6fbfe;
+  font-family: "Poppins", sans-serif;
+  background: #fdfdfd;
   color: #333;
-  scroll-behavior: smooth;
 }
 
-/* Navbar */
-.navbar {
-  background: #ffe4ec;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar .logo {
-  color: #ff6f91;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: #6f74ff;
-  font-weight: 500;
-}
-
-.navbar ul li a:hover {
-  text-decoration: underline;
-}
-
-/* Hero */
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #ffdde1, #4ba0f0);
-  color: white;
-  border-radius: 0 0 30px 30px;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background: white;
-  color: #82b4e5;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: transform 0.2s, background 0.3s;
-}
-
-.btn:hover {
-  background: #ffe4ec;
-  transform: scale(1.05);
-}
-
-/* Sections */
-.section {
-  padding: 40px 20px;
+.page-container {
+  padding: 50px;
   text-align: center;
 }
 
-.card {
-  background: white;
-  padding: 20px;
-  margin: 15px auto;
-  max-width: 300px;
-  border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+h2 {
+  color: #ff2e63;
+  margin-bottom: 10px;
 }
 
-/* Footer */
-.footer {
-  background: #e4f7ff;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Animations */
-.fade-in {
-  opacity: 0;
-  animation: fadeIn 1s forwards;
-}
-
-.fade-in.delay {
-  animation-delay: 0.5s;
-}
-
-.fade-in.delay-2 {
-  animation-delay: 1s;
-}
-
-@keyframes fadeIn {
-  to { opacity: 1; }
+p {
+  font-size: 18px;
+  line-height: 1.6;
 }
