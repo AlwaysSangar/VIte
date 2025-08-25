@@ -1,0 +1,12 @@
+.skills i,
+.skills svg {
+  background: #111;      
+  color: white;           
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+}
